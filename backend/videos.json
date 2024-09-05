@@ -1,0 +1,108 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
+            "descricao": "3 mil visualizações",
+            "url": "https://www.youtube.com/embed/y8FeZMv37WU",
+            "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+            "categoria": "Programação"
+        },
+        {
+            "id": 2,
+            "titulo": "MAIS MEMÓRIA deixa o PC PIOR?",
+            "descricao": "1,5 mil visualizações",
+            "url": "https://www.youtube.com/embed/KZHn_ydcqD8",
+            "imagem": "https://yt3.googleusercontent.com/80BW6g5aceNMXBTdeeO5p193DAUdwLPYWEQn8491sIJhMiMc4YMVYijqhazNsxI0BPLsDNA3x9I=s160-c-k-c0x00ffffff-no-rj?raw=true",
+            "categoria": "Componentes PC"
+        },
+        {
+            "id": 3,
+            "titulo": "Laos Parte 1: Criando um Estado-nação",
+            "descricao": "30 mil visualizações",
+            "url": "https://www.youtube.com/embed/kELGgaTx84s",
+            "imagem": "https://yt3.googleusercontent.com/LLNr2X2F0pwr1rCCrl4M4HB10TI-q554ZiXPH-GjPL7qOYFSM7mxAGt-cUGqOrMmsOZHly1i=s160-c-k-c0x00ffffff-no-rj?raw=true",
+            "categoria": "História"
+        },
+        {
+            "id": 4,
+            "titulo": "World of Warcraft: The War Within Gameplay - LEEROOOYYYY JENKINNSSSS!!!",
+            "descricao": "2,5 mil visualizações",
+            "url": "https://www.youtube.com/embed/Pmk7YPtM7AQ",
+            "imagem": "https://yt3.googleusercontent.com/ytc/AIdro_k6x9CJjDdSvhkw9_Qnv9QGR7z4UYwZMBpjHD5UwsmXdA=s160-c-k-c0x00ffffff-no-rj?raw=true",
+            "categoria": "WoW"
+        },
+        {
+            "id": 5,
+            "titulo": "PAPO COM FILIPE FIGUEIREDO E MATIAS PINTO (XADREZ VERBAL) // DL SHOW",
+            "descricao": "1,2 mil visualizações",
+            "url": "https://www.youtube.com/embed/oPR9-2L_35A",
+            "imagem": "https://yt3.googleusercontent.com/RWJAvGFVP-PJUdFEVkfiWhZYHdmYIx2MZtmw_e8R4F6r9ahJkBpQKRi-ZQevyZFfd0DDY_m8e40=s160-c-k-c0x00ffffff-no-rj?raw=true",
+            "categoria": "Podcasts"
+        },
+        {
+            "id": 6,
+            "titulo": "NÃO, o petróleo NÃO é feito de dinossauros!",
+            "descricao": "1,6 mil visualizações",
+            "url": "https://www.youtube.com/embed/G6nkohg3vCg",
+            "imagem": "https://yt3.googleusercontent.com/ytc/AIdro_mw-pZdoFO4GY8py4M5bW4dP0p4V9FL-PtJcbx_MfbepyM=s160-c-k-c0x00ffffff-no-rj?raw=true",
+            "categoria": "Biologia"
+        },
+        {
+            "id": 7,
+            "titulo": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
+            "descricao": "3,2 mil visualizações",
+            "url": "https://www.youtube.com/embed/Nts3P35mHzE",
+            "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+            "categoria": "Data Science"
+        },
+        {
+            "id": 8,
+            "titulo": "AM4 ou AM5? Compro um processador ou TROCO TUDO?!",
+            "descricao": "1,2 mil visualizações",
+            "url": "https://www.youtube.com/embed/OG59E-L7yUk",
+            "imagem": "https://yt3.googleusercontent.com/80BW6g5aceNMXBTdeeO5p193DAUdwLPYWEQn8491sIJhMiMc4YMVYijqhazNsxI0BPLsDNA3x9I=s160-c-k-c0x00ffffff-no-rj?raw=true",
+            "categoria": "Componentes PC"
+        },
+        {
+            "id": 9,
+            "titulo": "O impacto cultural de World of Warcraft | Gaveta",
+            "descricao": "1 mil visualizações",
+            "url": "https://www.youtube.com/embed/2hF1dHwnbE4",
+            "imagem": "https://yt3.googleusercontent.com/1uUc5OT51KnlcmN4nAcM-Wr3QSF6aLtp2IONCGHpleaZ6wjoU1inAQ21tdrXu2OxP1r9eyuRgA=s160-c-k-c0x00ffffff-no-rj?raw=true",
+            "categoria": "Ao Vivo"
+        },
+        {
+            "id": 10,
+            "titulo": "Guia de carreira Front-end | #HipstersPontoTube",
+            "descricao": "18 mil visualizações",
+            "url": "https://www.youtube.com/embed/fpth65ts3cw",
+            "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+            "categoria": "Debates"
+        },
+        {
+            "id": 11,
+            "titulo": "Integralismo, estudo de caso sobre o fenômeno fascista",
+            "descricao": "4 mil visualizações",
+            "url": "https://www.youtube.com/embed/3qNmIXaFSr8",
+            "imagem": "https://yt3.googleusercontent.com/LLNr2X2F0pwr1rCCrl4M4HB10TI-q554ZiXPH-GjPL7qOYFSM7mxAGt-cUGqOrMmsOZHly1i=s160-c-k-c0x00ffffff-no-rj?raw=true",
+            "categoria": "História"
+        },
+        {
+            "id": 12,
+            "titulo": "Evolução e dispersão dos HOMINÍDEOS (Parte 1: origem das espécies)",
+            "descricao": "7 mil visualizações",
+            "url": "https://www.youtube.com/embed/8ox6Ff2SbWw",
+            "imagem": "https://yt3.googleusercontent.com/ytc/AIdro_mw-pZdoFO4GY8py4M5bW4dP0p4V9FL-PtJcbx_MfbepyM=s160-c-k-c0x00ffffff-no-rj?raw=true",
+            "categoria": "Biologia"
+        },
+        {
+            "id": 13,
+            "titulo": "A MELHOR ANÁLISE SOBRE IA | Tecnologia e Classe",
+            "descricao": "12 mil visualizações",
+            "url": "https://www.youtube.com/embed/00dYt-9uuRc",
+            "imagem": "https://yt3.googleusercontent.com/zWivA58Q8q1DeWxoTeLCRIVf1e6mvFXEgtYqBFhQUSGH0Jvr06Gt756woZyoVX36WgLvo5O4oQk=s160-c-k-c0x00ffffff-no-rj?raw=true",
+            "categoria": "Inteligenci Artificial"
+        }
+    ]
+}
