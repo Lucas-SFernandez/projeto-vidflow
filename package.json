@@ -1,0 +1,28 @@
+{
+  "name": "projeto-vidflow-main",
+  "version": "0.0.0",
+  "description": "",
+  "main": "script.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-local": "json-server --watch backend/videos.json",
+    "checar-codigo": "eslint .",
+    "dev": "vite",
+    "build": "vite build",
+    "build-preview": "vite build --watch",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "9.9.1",
+    "json-server": "0.17.4",
+    "prettier": "3.0.3",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
