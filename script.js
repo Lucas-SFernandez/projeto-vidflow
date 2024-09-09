@@ -3,9 +3,9 @@ const barraDePesquisa = document.querySelector('.pesquisar__input');
 
 barraDePesquisa.addEventListener('input', filtrarPesquisa);
 
-function filtrarPesquisa(){
+function filtrarPesquisa() {
     const videos = document.querySelectorAll('.videos__item');
-    const valorFiltro =  barraDePesquisa.value.toLowerCase();
+    const valorFiltro = barraDePesquisa.value.toLowerCase();
 
     videos.forEach((video) => {
         const titulo = video.querySelector('.titulo-video').textContent.toLowerCase();
@@ -22,7 +22,7 @@ botaoCategoria.forEach((botao) => {
     botao.addEventListener('click', () => filtrarPorCategoria(nomeCategoria));
 })
 
-function filtrarPorCategoria(filtro){
+function filtrarPorCategoria(filtro) {
     const videos = document.querySelectorAll('.videos__item');
     const valorFiltro = filtro.toLowerCase();
 
@@ -35,16 +35,19 @@ function filtrarPorCategoria(filtro){
 }
 
 //Buscando e mostrando os vídeos na tela
+import axios from "./node_modules/axios";
 const containerVideos = document.querySelector('.videos__container');
 
-
 async function buscarMostrarVideos() {
-    try{
-    const buscar = await fetch('http://localhost:3000/videos');
-    const videos = await buscar.json();
+    const urlVideos = import.meta.env.PROD ? 'https://gist.githubusercontent.com/Lucas-SFernandez/479dc93238bf0c322f20c8d509a3a818/raw/eaffe3aaddfaaf9e2f12ad5183d6a9bb2faee4ee/gistfile1.txt' : 'http://localhost:3000/videos'
 
-    videos.forEach((video) => {
-        containerVideos.innerHTML += `
+    try {
+        const buscar = await axios.get(urlVideos);
+        const videos = buscar.data;
+        
+        
+        videos.forEach((video) => {
+            containerVideos.innerHTML += `
     <li class="videos__item">
     <iframe src="${video.url}" title="${video.titulo}" frameborder="0" allowfullscreen></iframe>
     
@@ -56,10 +59,10 @@ async function buscarMostrarVideos() {
     </div>
     </li>
     `;
-    })
-} catch(err){
-            containerVideos.innerHTML = `<p style="color: red; font-size: 18px;"> Houve um erro ao carregar os vídeos; ${err} </br> Pro favor tente mais tarde</p>`;
-        }
+        })
+    } catch (err) {
+        containerVideos.innerHTML = `<p style="color: red; font-size: 18px;"> Houve um erro ao carregar os vídeos; ${err} </br> Pro favor tente mais tarde</p>`;
+    }
 }
 
 buscarMostrarVideos();
